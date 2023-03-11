@@ -1,0 +1,79 @@
+/* style.css */
+html{
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "Beauty and The Beast";
+  src: url("beautyofthebeast.ttf");
+}
+body{
+  text-align: center;
+  margin: 0;
+}
+
+.background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  background-image: url("https://kalix.club/uploads/posts/2022-12/1671548089_kalix-club-p-krasavitsa-i-chudovishche-oboi-instagram-1.jpg");
+  width: 100%;
+  height: 100%;
+  background-size :cover;
+  filter :blur(3.5px); 
+}
+
+h1 {
+  font-family: "Beauty and The Beast";
+  font-size: 90px;
+  color: #ffc905;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow:  4px 4px #0f258a;
+}
+
+p {
+  font-family: "Beauty and The Beast";
+  color: #efefef;
+  font-size: 50px;
+  
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+  text-shadow:  2px 2px #0f258a;
+}
+
+input {
+
+  font-family: "Beauty and The Beast";
+  font-size: 32px;
+  font-weight: bold;
+  width: 360px;
+  height: 65px;
+  border-radius: 10px;
+  border: 2px solid #efefef;
+  text-align: center;
+  margin-left: auto; /* center input box horizontally */
+  margin-right: auto; /* center input box horizontally */
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #0f258a;
+  color: #efefef;
+}
+
+button {
+  font-family: "Beauty and The Beast";
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #0f258a;
+  color: #efefef;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #efefef;
+  height: 60px;
+  width: 145px;
+}
